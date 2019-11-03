@@ -5,6 +5,6 @@
 
  spec :: Spec
  spec = do
-     describe "myProduct" $
+     describe "myProduct test:" $
       it "4! should be 24" $
        (myProduct [2,3,4]) `shouldBe` 24
